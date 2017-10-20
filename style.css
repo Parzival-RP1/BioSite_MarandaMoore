@@ -10,7 +10,7 @@ html {
 body {
     font-size: 16px;
     line-height: 1.5;
-    margin: 0;
+    margin: 10;
     
    
     align-content: center;
@@ -45,8 +45,7 @@ p   {
     line-height: 1em;
     text-decoration-color: white
     max-width: 800px;
-    padding: 0px 0px 10px;
-    
+    padding: 0px px 10px 0px;
 }
 
 
@@ -61,11 +60,6 @@ h1, h2 {
     max-width: 1600px;
     padding: none;
     align-content: center
-}
-
-.container {
-	width: 100%;
-	margin: 0 auto;
 }
 
 header {
@@ -106,40 +100,17 @@ nav a {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 14px;
+    position: 
  }
 
-nav a:hover {
-	color: #fff;
- }
-
-nav a::before {
-	content: ‘’;
-	display: block;
-	height: 5px;
-	background-color: lawngreen;
-
-	position: absolute;
-	top: 0;
-	width: 0%;
-
-	transition: all ease-in-out 300ms;
- }
-
-nav a:hover::before {
-	width: 100%;
- }
-
-article {
-    max-width: 800px;
-    align-content: center;
-}
 
 img {
-    width: 800px;
+    width: 100%;
     -moz-box-shadow: 0 0 10px #777777;
     -webkit-box-shadow: 0 0 10px #777777;
     box-shadow: 0 0 10px #777777;
 }
+
 
 
 /* 
